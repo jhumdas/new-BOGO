@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <meta property="og:image:size" content="300" />
+    <title>Document</title>
+
+    <!---bootsrap-->
+    <link
+      href="./assets/bootstrap-5.3.5-dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!---css-->
+    <link href="assets/css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="bogo-section">
+      <div class="container">
+        <div class="sec-heading">
+          <span></span>
+          <h2>YAY! It’s BOGO</h2>
+          <span></span>
+        </div>
+
+        <div class="bogo-box" id="box1" onclick="handleClickFunction('box1')">
+          <div class="wrap">
+            <div class="left-part">
+              <div class="form-check">
+                <label class="custom-radio">
+                  <input
+                    type="radio"
+                    name="flexRadioDefault"
+                    id="flexRadioDefault1"
+                  />
+                  <span class="radio-check"></span>
+                </label>
+
+                <label class="form-check-label" for="flexRadioDefault1">
+                  <span class="unit-text">1 Unit</span>
+                  <span class="discount">10% Off</span>
+                  <span class="d-block Standard-price">Standard Price</span>
+                </label>
+              </div>
+            </div>
+            <div class="right-part">
+              <h5>$10.00 USD</h5>
+              <span>$24.00 USD</span>
+            </div>
+          </div>
+          <div class="size-color-box-wrap">
+            <div class="size-color-box">
+              <div class="size-wraper">
+                <div class="size-box">
+                  <h6>Size</h6>
+                  <div class="select-size">
+                    <span>#1</span>
+                    <select class="form-select">
+                      <option>S</option>
+                      <option>M</option>
+                      <option>L</option>
+                      <option>XL</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="size-box">
+                  <h6>Size</h6>
+                  <div class="select-size">
+                    <span>#2</span>
+                    <select class="form-select">
+                      <option>S</option>
+                      <option>M</option>
+                      <option>L</option>
+                      <option>XL</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="color-wraper">
+                <div class="color-box">
+                  <h6>Colour</h6>
+                  <div class="select-color">
+                    <span>#1</span>
+                    <select class="form-select">
+                      <option>Black</option>
+                      <option>White</option>
+                      <option>Pink</option>
+                      <option>Green</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="color-box">
+                  <h6>Colour</h6>
+                  <div class="select-color">
+                    <span>#2</span>
+                    <select class="form-select">
+                      <option>Black</option>
+                      <option>White</option>
+                      <option>Pink</option>
+                      <option>Green</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="bogo-box" id="box2" onclick="handleClickFunction('box2')">
+          <div class="wrap">
+            <div class="left-part">
+              <div class="form-check">
+                <label class="custom-radio">
+                  <input
+                    type="radio"
+                    name="flexRadioDefault"
+                    id="flexRadioDefault2"
+                  />
+                  <span class="radio-check"></span>
+                </label>
+                <label class="form-check-label" for="flexRadioDefault2">
+                  <span class="unit-text">2 Unit</span>
+                  <span class="discount">20% Off</span>
+                  <span class="d-block Standard-price">Standard Price</span>
+                </label>
+              </div>
+            </div>
+            <div class="right-part">
+              <h5>$18.00 USD</h5>
+              <span>$24.00 USD</span>
+            </div>
+          </div>
+          <div class="size-color-box-wrap">
+            <div class="size-color-box">
+              <div class="size-wraper">
+                <div class="size-box">
+                  <h6>Size</h6>
+                  <div class="select-size">
+                    <span>#1</span>
+                    <select class="form-select">
+                      <option>S</option>
+                      <option>M</option>
+                      <option>L</option>
+                      <option>XL</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="size-box">
+                  <h6>Size</h6>
+                  <div class="select-size">
+                    <span>#2</span>
+                    <select class="form-select">
+                      <option>S</option>
+                      <option>M</option>
+                      <option>L</option>
+                      <option>XL</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="color-wraper">
+                <div class="color-box">
+                  <h6>Colour</h6>
+                  <div class="select-color">
+                    <span>#1</span>
+                    <select class="form-select">
+                      <option>Black</option>
+                      <option>White</option>
+                      <option>Pink</option>
+                      <option>Green</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="color-box">
+                  <h6>Colour</h6>
+                  <div class="select-color">
+                    <span>#2</span>
+                    <select class="form-select">
+                      <option>Black</option>
+                      <option>White</option>
+                      <option>Pink</option>
+                      <option>Green</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="ribbon"><span>MOST POPULAR</span></div>
+        </div>
+
+        <div class="bogo-box" id="box3" onclick="handleClickFunction('box3')">
+          <div class="wrap">
+            <div class="left-part">
+              <div class="form-check">
+                <label class="custom-radio">
+                  <input
+                    type="radio"
+                    name="flexRadioDefault"
+                    id="flexRadioDefault3"
+                  />
+                  <span class="radio-check"></span>
+                </label>
+                <label class="form-check-label" for="flexRadioDefault3">
+                  <span class="unit-text">3 Unit</span>
+                  <span class="discount">30% Off</span>
+                </label>
+              </div>
+            </div>
+            <div class="right-part">
+              <h5>$24.00 USD</h5>
+              <span>$24.00 USD</span>
+            </div>
+          </div>
+          <div class="size-color-box-wrap">
+            <div class="size-color-box">
+              <div class="size-wraper">
+                <div class="size-box">
+                  <h6>Size</h6>
+                  <div class="select-size">
+                    <span>#1</span>
+                    <select class="form-select">
+                      <option>S</option>
+                      <option>M</option>
+                      <option>L</option>
+                      <option>XL</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="size-box">
+                  <h6>Size</h6>
+                  <div class="select-size">
+                    <span>#2</span>
+                    <select class="form-select">
+                      <option>S</option>
+                      <option>M</option>
+                      <option>L</option>
+                      <option>XL</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="color-wraper">
+                <div class="color-box">
+                  <h6>Colour</h6>
+                  <div class="select-color">
+                    <span>#1</span>
+                    <select class="form-select">
+                      <option>Black</option>
+                      <option>White</option>
+                      <option>Pink</option>
+                      <option>Green</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="color-box">
+                  <h6>Colour</h6>
+                  <div class="select-color">
+                    <span>#2</span>
+                    <select class="form-select">
+                      <option>Black</option>
+                      <option>White</option>
+                      <option>Pink</option>
+                      <option>Green</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="bottom-part">
+          <h5>Free Delivery</h5>
+          <h4>Total : $18.00 USD</h4>
+        </div>
+
+        <div class="add-to-cart"><button>+ Add to Cart</button></div>
+        <p class="sec-footer">@ Powered by Pumper</p>
+      </div>
+    </div>
+
+    <!---bootsrap-->
+    <script src="./assets/bootstrap-5.3.5-dist/js/bootstrap.bundle.js"></script>
+
+    <!---local-js-->
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
